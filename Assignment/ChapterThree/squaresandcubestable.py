@@ -1,7 +1,4 @@
-"""
-Display header
-For
-"""
+# Table of squares and cubes
 
 print("number\tsquare\tcube")
 

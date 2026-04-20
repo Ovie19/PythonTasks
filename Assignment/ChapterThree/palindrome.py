@@ -1,3 +1,5 @@
+# Palindrome checker
+
 number = int(input("Enter a five-digit integer: "))
 
 fifth_digit = number % 10

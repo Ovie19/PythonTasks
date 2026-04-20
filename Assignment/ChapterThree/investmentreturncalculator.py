@@ -1,3 +1,5 @@
+# Investment return calculator
+
 principal = 1000
 rate = 7 / 100;
 

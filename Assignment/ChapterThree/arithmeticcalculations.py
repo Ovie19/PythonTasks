@@ -1,3 +1,4 @@
+# arithmetic calculation
 sum_of_numbers = 0
 product_of_numbers = 1
 

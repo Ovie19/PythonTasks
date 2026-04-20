@@ -1,3 +1,5 @@
+# Separated digits
+
 number = int(input("Enter a five-digit number: "))
 separated_number_string = ""
 

@@ -1,4 +1,4 @@
-"""Comparing integers using if statements and comparison operators."""
+"""Comparing integers using if statements and comparison operators"""
 
 number1 = int(input('Enter first integer: '))
 number2 = int(input('Enter second integer: '))

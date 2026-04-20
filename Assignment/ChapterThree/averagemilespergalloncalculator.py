@@ -1,3 +1,5 @@
+# Average miles per gallon calculator
+
 total_miles_driven = 0
 total_gallon_used = 0
 total_miles_per_gallon = 0

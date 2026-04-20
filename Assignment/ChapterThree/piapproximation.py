@@ -1,3 +1,5 @@
+# Approximation of constant PI
+
 pi_value = 4
 
 print("Term      Approximation")

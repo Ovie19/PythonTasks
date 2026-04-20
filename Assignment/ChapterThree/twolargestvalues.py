@@ -1,3 +1,5 @@
+# Display two largest numbers
+
 number = int(input("Enter a number: "))
 largest_number = number
 second_largest_number = number

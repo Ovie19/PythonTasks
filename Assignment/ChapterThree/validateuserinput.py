@@ -1,3 +1,5 @@
+# Validate user's input
+
 """
 Initialize passes to zero
 Initialize failures to zero

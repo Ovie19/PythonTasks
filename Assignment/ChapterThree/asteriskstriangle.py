@@ -1,3 +1,5 @@
+# Asterisks triangle
+
 print("First Triangle")
 for outer_loop_index in range(1, 11):
     for inner_loop_index in range(outer_loop_index):
