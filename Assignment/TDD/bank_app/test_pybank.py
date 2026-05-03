@@ -1,8 +1,7 @@
 import unittest
 import pybank
 
-class TestPyBank(unittest.TestCase):
-    # Test for validate_email
+class TestValidateEmailFunction(unittest.TestCase):
     def test_that_validate_email_function_exists(self):
         pybank.validate_email("adex@gmail.com")
 
@@ -46,26 +45,28 @@ class TestPyBank(unittest.TestCase):
         expected = False
         self.assertEqual(actual, expected)
 
-    # Test for calculate_balance
-    def test_that_is_calculate_balance_function_exists(self):
+
+class TestCalculateBalanceFunction(unittest.TestCase):
+    def test_that_calculate_balance_function_exists(self):
         pybank.calculate_balance([100, 200, -230])
 
-    def test_that_is_calculate_balance_returns_zero_for_empty_list(self):
+    def test_that_calculate_balance_returns_zero_for_empty_list(self):
         actual = pybank.calculate_balance([])
         expected = 0
         self.assertEqual(actual, expected)
 
-    def test_that_is_calculate_balance_function_returns_correct_positive_balance(self):
+    def test_that_calculate_balance_function_returns_correct_positive_balance(self):
         actual = pybank.calculate_balance([100, 200, -230])
         expected = 70
         self.assertEqual(actual, expected)
 
-    def test_that_is_calculate_balance_function_returns_correct_negative_balance(self):
+    def test_that_calculate_balance_function_returns_correct_negative_balance(self):
         actual = pybank.calculate_balance([100, -200, -100])
         expected = -200
         self.assertEqual(actual, expected)
 
-    # Test for is_strong_password
+
+class TestIsStrongPasswordFunction(unittest.TestCase):
     def test_that_is_strong_password_function_exists(self):
         pybank.is_strong_password("a5afa3m")
 
@@ -79,7 +80,8 @@ class TestPyBank(unittest.TestCase):
         expected = False
         self.assertEqual(actual, expected)
 
-    # Test for apply_interest
+
+class TestApplyInterestFunction(unittest.TestCase):
     def test_that_apply_interest_function_exists(self):
         pybank.apply_interest(1000, 12, 3)
 
@@ -98,7 +100,8 @@ class TestPyBank(unittest.TestCase):
         expected = 1100
         self.assertEqual(actual, expected)
 
-    # Test for get_transaction_summary
+
+class TestGetTransactionSummaryFunction(unittest.TestCase):
     def test_that_get_transaction_summary_function_exists(self):
         pybank.get_transaction_summary([])
 
@@ -125,23 +128,3 @@ class TestPyBank(unittest.TestCase):
         actual = result[3][1]
         expected = 3
         self.assertEqual(actual, expected)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #s
